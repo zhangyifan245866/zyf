@@ -1,0 +1,14 @@
+主表：
+	d_dept	
+	d_depid	部门id
+	d_name	部门名
+从表：
+	e_emp
+	e_id	id
+	e_name	姓名
+	birthday	时间
+	gander	性别
+	age	年龄
+	pic	头像
+	d_depid	从表主键ID
+	hobby	爱好
