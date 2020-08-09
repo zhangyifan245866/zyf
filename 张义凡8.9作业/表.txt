@@ -1,0 +1,11 @@
+主表：
+	school	学校
+	sid	学校ID
+	sname	学校名
+从表：
+	student	学生
+	stid	学生ID
+	stname	学生姓名
+	stbirthday	学生生日
+	stage	学生年龄
+	stsex	学生性别
