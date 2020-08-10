@@ -1,0 +1,16 @@
+主表：	课程表course
+ 	id  主键，
+	name课程名,
+	code课程编码,
+	createtime 创建时间
+
+
+从表:	学生表student
+	id主键，
+	courseid选择课程id，
+	name学生姓名，
+	age年龄，
+	code学生编号,
+	grade所属年级，
+	entrytime入校时间,
+	createtime 创建时间course
