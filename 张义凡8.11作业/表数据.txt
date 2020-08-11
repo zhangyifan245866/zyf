@@ -1,0 +1,15 @@
+主表：
+	商品分类表goodstype
+	id主键，
+	typename分类名称,
+	status状态,
+	createtime 创建时间
+从表：
+	商品表goods
+	id主键，
+	typeid所属分类id，
+	code商品编号,
+	name商品名称，
+	price价格，
+	status状态，
+	createtime 创建时间
